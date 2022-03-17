@@ -51,7 +51,7 @@
 - Built basic test objects: `user` and `message` based on the document, as I understood it
 - Tested a simple `describe` and `it` for functionaliity to return user object - Successful
 - Nested an axios get request in a `before((done) => {...})` (https://www.npmjs.com/package/axios)
-- Tested thegeneric GET request with `https://www.google.com` - Successful
+- Tested the generic GET request with `https://www.google.com` - Successful
 - Added `status` and `data` variables & set to destructure the response in the axios call
 - Copied the `Create-New-User` describe for message test and renamed to `Send-Message-To-System`
 - Added ternary operator for local variable `apiUrl`, system variable `SERVER`
