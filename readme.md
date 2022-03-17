@@ -74,6 +74,6 @@
 #### TODO's
 
 - Randomize user object values
-- Build out an array of user objects that test hit cases (positive)
+- Build out an array of user objects that test edge cases
 - forEach() through array of user objects
 - Test for all known or unknown response codes
