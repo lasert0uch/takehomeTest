@@ -64,6 +64,9 @@
 - Added chai expect for `status = 200` for `/message/new` (post)
 - Added env variables object for status codes, because that's just better
 - Added this.readme.md
+- Added task .pdf
+- Added example `userData.js` array of objects for import and looping in `./test` folder
+- Added .gitignore file
 
 #### Unknowns
 

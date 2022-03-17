@@ -1,6 +1,7 @@
 import { expect } from 'chai';
 import axios from 'axios';
-const apiUrl = process.env.SERVER === undefined ? 'https://www.google.com' : process.env.SERVER
+import userArray from '../userData';
+const apiUrl = process.env.SERVER === undefined ? 'https://www.google.com' : process.env.SERVER;
 let status, data
 
 const user = {
@@ -21,9 +22,6 @@ const expStatus = {
     newUser: +process.env.USER,
     newMessage: +process.env.MESSAGE,
 }
-
-
-
 
 
 describe(`Create-New-User-${apiUrl}/user/new`, () => {
